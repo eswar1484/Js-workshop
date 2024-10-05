@@ -1,0 +1,31 @@
+<!-- producct of odd elements -->
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <Script>
+            let m=prompt("Enter m");
+            let n=prompt("Enter n");
+            let arr=[1,2,3,4,5];
+            let c=1;
+            if(m>n){
+                document.write(1);
+            }
+            else{
+            for(i=m;i<=n;i++)
+            {
+            if(arr[i-1]%2!=0)
+            {
+                c*=arr[i-1];
+            }
+            }
+           }
+            document.write(c);
+
+        </Script>
+        <!-- <script src="app.js"></script> -->
+    </body>
+    
+</html>
